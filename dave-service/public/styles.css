@@ -1,0 +1,65 @@
+.productModule {
+  display: flex;
+  flex-wrap: row;
+}
+.imageModule {
+  display: flex;
+}
+.imageList {
+  flex-direction: column;
+  display: flex;
+  max-height: 500px;
+  overflow-y: hidden;
+  min-width: 90px;
+  position: relative;
+}
+.productImage {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid rgb(222, 221, 223);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 70px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 9px;
+  width: 70px;
+}
+.selected {
+  border-color: rgb(150, 150, 150);
+  cursor: inherit;
+}
+.mainImageContainer {
+  min-height: 350px;
+  width: 100%;
+  padding: 0 5px;
+  display: inline-block;
+
+}
+.mainImageFlex {
+  min-height: 350px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.mainImageWrapper {
+  display: flex;
+  padding: 3px 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(222, 221, 223);
+  border-radius: 4px;
+}
+.mainImage {
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.3);
+  max-height: 500px;
+  max-width: 100%;
+  width: auto!important;
+  cursor: pointer;
+}

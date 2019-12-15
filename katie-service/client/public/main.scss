@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400&display=swap');
+@import './resets';
+
+$headline: #082a4c;
+$comments: #4a4a4a;
+$info-text: #8a8a8a;
+$font-weights: (
+  'regular': 400,
+  'light': 200
+);
+
+.reviews-body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: map-get($font-weights, light);
+  line-height: 19px;
+}
+
+.reviews-accordion {
+  padding: 10px;
+  border: 1px solid #dedddf;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 90%;
+
+  .accordion-header {
+    font-size: 16px;
+    line-height: 18px;
+    color: #4a4a4a;
+    padding: 8px;
+  }
+
+  .reviews-container {
+    padding: 16px;
+
+    .review-body {
+      border-top: 1px solid #f8f8f8;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 55px;
+      padding-left: 55px;
+
+      .review-headline {
+        color: $headline;
+        font-weight: map-get($font-weights, regular);
+        font-size: 16px;
+        line-height: 150%;
+      }
+
+      .review-comments {
+        color: $comments;
+        font-size: 14px;
+      }
+
+      .review-tags {
+        color: #77899e;
+        font-size: 12px;
+      }
+
+      .review-user {
+        color: $info-text;
+        font-size: 12px;
+        line-height: 200%;
+      }
+
+      .review-date {
+        color: $info-text;
+        font-size: 12px;
+        margin-right: 10px;
+      }
+    }
+
+  .ratings-overview {
+    max-width: 100%;
+    width: 370px;
+
+
+    .ratings-heading {
+      display: inline-block;
+      font-size: 25px;
+      line-height: 24px;
+      width: 60%;
+    }
+  }
+}
+}
+
+.thumbs-button {
+  align-items: center;
+  border: 1px solid #f5f5f5;
+  border-radius: 3px;
+  color: #a3a3a3;
+  height: 30px;
+  width: 40px;
+  cursor: pointer;
+  font-size: 9px;
+
+  .btn:before {
+    position: absolute;
+    font-family: 'FontAwesome';
+    top: 0;
+    left: 10px;
+    content: "\f005";
+  }
+}
+
+.thumb {
+  font-size: 16px;
+}
+
+.progress {
+  margin-bottom: 10px;
+  background-color: #f1f9ff !important;
+  width: 25%;
+}
+
+.progress-bar-blue {
+  height: 25px;
+  background-color: #9ec9eb !important;
+}
+
+.star {
+  color: #9ec9eb;
+}
+
+.star-rating-text {
+  font-size: 9px;
+  color: #3f5978;
+}
+
+.average-rating {
+  background-color: #f1f9ff;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 400;
+  color: #082a4c;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 5px;
+}
