@@ -1,9 +1,9 @@
 const mysql = require('mysql2');
 const Sequelize = require('sequelize');
 
-const db_reviews = new Sequelize('product_reviews', 'root', '', {
+const db_reviews = new Sequelize('product_reviews', process.env.HART_DB_USER || 'root', process.env.HART_DB_PASS || '', {
   dialect: 'mysql',
-  host: 'localhost',
+  host: process.env.HART_DB_HOST || 'localhost',
 })
 
 db_reviews
