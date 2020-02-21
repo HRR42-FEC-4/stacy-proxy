@@ -1,0 +1,25 @@
+version: "3.7"
+
+x-env: &env
+  HART_DB_HOST: 34.235.146.125
+  HART_DB_USER:
+  HART_DB_PASS:
+
+services:
+  proxy:
+    image: "404330040211.dkr.ecr.us-east-1.amazonaws.com/proxy:latest"
+    ports:
+      - "3000:3000"
+    environment: *env
+  reviews:
+    image: "404330040211.dkr.ecr.us-east-1.amazonaws.com/reviews:latest"
+    environment: *env
+
+  carousel:
+    image: "404330040211.dkr.ecr.us-east-1.amazonaws.com/carousel:latest"
+    environment: *env
+
+  products:
+    image: "404330040211.dkr.ecr.us-east-1.amazonaws.com/products:latest"
+    environment: *env
+
