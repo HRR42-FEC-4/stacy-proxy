@@ -1,14 +1,14 @@
 # H-Art
 
-> Coming soon
+
 
 ## Related Projects
 
-  - https://github.com/HRR42-FEC-4/stacy-service
-  - https://github.com/HRR42-FEC-4/dave-proxy
-  - https://github.com/HRR42-FEC-4/dave-service
-  - https://github.com/HRR42-FEC-4/katie-proxy
-  - https://github.com/HRR42-FEC-4/katie-service
+  - [stacy-service](https://github.com/HRR42-FEC-4/stacy-service)
+  - [dave-proxy](https://github.com/HRR42-FEC-4/dave-proxy)
+  - [dave-service](https://github.com/HRR42-FEC-4/dave-service)
+  - [katie-proxy](https://github.com/HRR42-FEC-4/katie-proxy)
+  - [katie-service](https://github.com/HRR42-FEC-4/katie-service)
 
 ## Table of Contents
 
