@@ -64,7 +64,7 @@ Developer: [Kathleen Trainor](https://github.com/kathleen29)
 #### Installing Dependencies
 From within the root directory:
 
-``` sh
+``` 
 npm install
 ```
 <br>
@@ -75,6 +75,11 @@ npm install
 <br>
 
 ### Testing
+<br>
+
+```
+npm run test
+```
 <br>
 
 ## Related Projects
