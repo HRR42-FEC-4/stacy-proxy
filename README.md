@@ -74,6 +74,15 @@ npm install
 ### Development
 <br>
 
+```
+npm start
+```
+
+```
+npm build
+```
+<br>
+
 ### Testing
 <br>
 
