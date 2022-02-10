@@ -31,7 +31,7 @@
     "faker": "^4.1.0",
     "jest": "^24.9.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.1",
     "sass": "^1.23.7",
     "sequelize-cli": "^5.5.1",
